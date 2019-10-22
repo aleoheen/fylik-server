@@ -1,0 +1,27 @@
+{
+	"name": "fylik-server",
+	"version": "1.0.0",
+	"description": "BackEnd system for Fylik Project (REST API)",
+	"main": "index.js",
+	"repository": "https://github.com/aleoheen/fylik-server.git",
+	"author": "Alexander Aleoheen <aleoheens@gmail.com>",
+	"license": "MIT",
+	"private": false,
+	"scripts": {
+		"debug": "export NODE_ENV=\"development\" && nodemon .",
+		"start": "node ."
+	},
+	"devDependencies": {
+		"nodemon": "latest"
+	},
+	"dependencies": {
+		"consola": "^2.10.1",
+		"cors": "^2.8.5",
+		"dotenv": "^8.1.0",
+		"express": "^4.17.1",
+		"express-longpoll": "^0.0.6",
+		"express-rate-limit": "^5.0.0",
+		"formidable": "^1.2.1",
+		"mongodb": "^3.3.2"
+	}
+}
