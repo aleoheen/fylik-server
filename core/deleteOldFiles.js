@@ -16,7 +16,7 @@ require('../core/funcs').then(({
 			.then((oldFiles) => oldFiles.forEach((file) => {
 					
 				/* === === === === === */
-				/* Delete file from db
+				/* Delete file
 				/* === === === === === */
 
 				collection
